@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '18error'
 
       # Runs a single command using the runners shell
       - name: Install dependencies
